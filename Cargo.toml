@@ -9,5 +9,5 @@ edition = "2021"
 [dependencies]
 clap = { version = "4.0.26", features = ["derive"] }
 colored = "2.0.0"
-enocean = { path = "../enocean" }
+enocean = { git = "https://github.com/maugier/enocean" }
 serialport = "4.2.0"

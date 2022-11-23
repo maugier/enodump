@@ -106,6 +106,7 @@ dependencies = [
 [[package]]
 name = "enocean"
 version = "0.2.56"
+source = "git+https://github.com/maugier/enocean#05973933a08d2978f237129c73a14a3209d60a46"
 dependencies = [
  "num_enum",
  "serialport",
