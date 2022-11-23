@@ -25,7 +25,7 @@ fn main() {
 
     let version =  port.read_version_information().expect("Could not read version");
 
-    eprintln!("Port version: {:?}", version);
+    eprintln!("Port version: {}", version);
 
     loop {
         match port.read_frame() {
